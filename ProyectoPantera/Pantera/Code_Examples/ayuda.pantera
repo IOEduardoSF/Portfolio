@@ -1,0 +1,16 @@
+func ayuda(a,b) {
+    // note que "else" sera asociada con el mas cercano de los "if" .
+    if a == true then if b == true then print 1; else print 2;
+    print 0;
+}
+
+func main() {
+    n = 1;
+    for i in 0..2 do {
+        for j in 0..2 do {
+            x = i==n;
+            y = j==n;
+            ayuda(x, y);
+        }
+    }
+}

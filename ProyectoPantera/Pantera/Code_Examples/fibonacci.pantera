@@ -1,0 +1,13 @@
+func main() {
+    a = 0;
+    b = 1;
+    cont = 20;
+    conta = 0;
+
+    for i in conta..cont do {
+        print b;
+        c = a + b;
+        a = b;
+        b = c;
+    }
+}

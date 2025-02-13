@@ -1,0 +1,14 @@
+func main(){
+    contador = 20;
+    n = 1;
+
+    for i in 2..contador do {
+        if (contador > n) then{
+            j = i*i;
+            while j < contador do {
+                j = j + i;
+                print j;
+            }
+        }
+    }
+}

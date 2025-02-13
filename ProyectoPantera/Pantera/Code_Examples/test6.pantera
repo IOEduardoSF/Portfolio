@@ -1,0 +1,15 @@
+func resta(x, y){
+        z = x - y;
+        print z;
+}
+
+func main(){
+    a = 1;
+    b = 2;
+    resta(b, a);
+
+    arr = [1, 2, 3];
+
+    c = arr[b];
+    print c;
+}

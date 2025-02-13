@@ -1,0 +1,21 @@
+func main() {
+    x = 10;
+    y = 20;
+
+    if (x < y) then {
+        a=2;
+        b=3;
+        a + b;
+    }
+
+    if (x > y) then {
+        print y;
+    } else {
+        if (a < b) then{
+            print b;
+        }
+        print x;
+    }
+
+    w = 1;
+}

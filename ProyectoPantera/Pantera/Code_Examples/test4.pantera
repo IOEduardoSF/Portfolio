@@ -1,0 +1,16 @@
+func main(){
+    a = 4;
+    cont = 0;
+    contador = 10;
+    for i in 0..contador do {
+        if (a == i) then continuar;
+        j = i;
+        print j;
+    }
+
+    while cont < contador do {
+        if (a == cont) then break;
+        print cont;
+        cont = +cont;
+    }
+}

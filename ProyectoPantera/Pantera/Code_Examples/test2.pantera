@@ -1,0 +1,12 @@
+func main() {
+    x = 10;
+    y = 20;
+    a = 2;
+    b = 3;
+    cont = 5;
+
+    if (x < y & b > a) then {
+        -cont;
+        print a;
+    }
+}

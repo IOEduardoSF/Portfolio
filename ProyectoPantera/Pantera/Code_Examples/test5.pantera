@@ -1,0 +1,18 @@
+func resta(x, y){
+        z = x - y;
+        print z;
+}
+
+func main(){
+    a = 500;
+    cont = 0;
+    conta = 0;
+    contador = 1000;
+
+    while cont < contador do {
+        b = 1;
+        if (cont == a) then break;
+        print cont;
+        cont = +cont;
+    }
+}
